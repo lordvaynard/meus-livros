@@ -23,316 +23,313 @@
     <footer class="text-center py-10 text-gray-500 border-t mt-10">
         <p>&copy; 2026 - Catálogo de Livros</p>
     </footer>
-
-    <script>
-        // --- LIVROS ORGANIZADOS POR AUTOR > TÍTULO ---
+<script>
         const livros = [
             {
                 titulo: "Os Sete",
                 autor: "André Vianco",
                 estado: "Como novo",
                 preco: "15,00",
-                imagem: "https://imgur.com/j9PMzYL"
+                imagem: "https://i.imgur.com/j9PMzYL.jpg"
             },
             {
                 titulo: "Sétimo",
                 autor: "André Vianco",
                 estado: "Conservado",
                 preco: "15,00",
-                imagem: "https://imgur.com/h6kultL"
+                imagem: "https://i.imgur.com/h6kultL.jpg"
             },
             {
                 titulo: "Box As cronicas de Arthur (3 livros)",
                 autor: "Bernard Cornwell",
                 estado: "Nunca lido.",
                 preco: "100,00",
-                imagem: "https://QN8JnNM"
+                imagem: "https://i.imgur.com/QN8JnNM.jpg"
             },
             {
                 titulo: "O Conde de Monte Cristo",
                 autor: "Alexandre Dumas",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/e4iJqTR"
+                imagem: "https://i.imgur.com/e4iJqTR.jpg"
             },
             {
                 titulo: "Autocracia S. A.",
                 autor: "Anne Applebaum",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/G1wXrqU"
+                imagem: "https://i.imgur.com/G1wXrqU.jpg"
             },
             {
                 titulo: "As melhores histórias de Sherlock Holmes",
                 autor: "Arthur Conan Doyle",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/ef3P4iX"
+                imagem: "https://i.imgur.com/ef3P4iX.jpg"
             },
             {
                 titulo: "O Exorcista",
                 autor: "William Peter Blatty",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/JX02udB"
+                imagem: "https://i.imgur.com/JX02udB.jpg"
             },
             {
                 titulo: "O Jardim Secreto",
                 autor: "Frances Hodgson Burnett",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/ots2EiF"
+                imagem: "https://i.imgur.com/ots2EiF.jpg"
             },
             {
                 titulo: "Product Backlog Building",
                 autor: "Fábio Aguiar e Paulo Caroli",
                 estado: "Como novo",
                 preco: "20,00",
-                imagem: "https://imgur.com/0u7h2y2"
+                imagem: "https://i.imgur.com/0u7h2y2.jpg"
             },
             {
                 titulo: "A Revolução dos Bichos",
                 autor: "George Orwell",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/YKYbGgc"
+                imagem: "https://i.imgur.com/YKYbGgc.jpg"
             },
             {
                 titulo: "Vidas Secas",
                 autor: "Graciliano Ramos",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/A7tHwKw"
+                imagem: "https://i.imgur.com/A7tHwKw.jpg"
             },
             {
                 titulo: "Confie em mim",
                 autor: "Harlan Coben",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/i5SEai7"
+                imagem: "https://i.imgur.com/i5SEai7.jpg"
             },
             {
                 titulo: "Não Conte a ninguem",
                 autor: "Harlan Coben",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/9dbEHlf"
+                imagem: "https://i.imgur.com/9dbEHlf.jpg"
             },
             {
                 titulo: "As Minas do Rei Salomão",
                 autor: "H. Rider Haggard",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/UrVBpQb"
+                imagem: "https://i.imgur.com/UrVBpQb.jpg"
             },
             {
                 titulo: "O chamado de Cthulhu e outros contos",
                 autor: "H.P. Lovecraft",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/7uBWois"
+                imagem: "https://i.imgur.com/7uBWois.jpg"
             },
             {
                 titulo: "Como se tornar um lider servidor",
                 autor: "James C. Hunter",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/w6V9HWU"
+                imagem: "https://i.imgur.com/w6V9HWU.jpg"
             },
             {
                 titulo: "A Culpa é das Estrelas",
                 autor: "John Green",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/FnF2iRZ"
+                imagem: "https://i.imgur.com/FnF2iRZ.jpg"
             },
             {
                 titulo: "Memorial do Convento",
                 autor: "José Saramago",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/sjT5tml"
+                imagem: "https://i.imgur.com/sjT5tml.jpg"
             },
             {
                 titulo: "A estrela da manhã",
                 autor: "Julia Quinn",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/2np2foa"
+                imagem: "https://i.imgur.com/2np2foa.jpg"
             },
             {
                 titulo: "Nunca",
                 autor: "Ken Follett",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/zr3vCyX"
+                imagem: "https://i.imgur.com/zr3vCyX.jpg"
             },
             {
                 titulo: "O Voo da Água",
                 autor: "Ken Follett",
                 estado: "Edição economica, como novo, nunca lido",
                 preco: "20,00",
-                imagem: "https://imgur.com/wKeMQWm"
+                imagem: "https://i.imgur.com/wKeMQWm.jpg"
             },
             {
                 titulo: "Dom Casmurro",
                 autor: "Machado de Assis",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/AvLvkIW"
+                imagem: "https://i.imgur.com/AvLvkIW.jpg"
             },
             {
                 titulo: "Memórias Postumas de Bras Cubas",
                 autor: "Machado de Assis",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/BiYG2Gn"
+                imagem: "https://i.imgur.com/BiYG2Gn.jpg"
             },
             {
                 titulo: "O Parque dos Dinossauros",
                 autor: "Michael Crichton",
                 estado: "Capa dura, edição antiga, marcas de uso e páginas amareladas",
                 preco: "20,00",
-                imagem: "https://imgur.com/s8ffM6h"
+                imagem: "https://i.imgur.com/s8ffM6h.jpg"
             },
             {
                 titulo: "O clube do Filme",
                 autor: "David Gilmour",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/Cw4JooW"
+                imagem: "https://i.imgur.com/Cw4JooW.jpg"
             },
             {
                 titulo: "Texas Hold'em Odds e Propabilidades",
                 autor: "Matthew Hilger",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/VfEZbN5"
+                imagem: "https://i.imgur.com/VfEZbN5.jpg"
             },
             {
                 titulo: "Poker - A essência do Texas Hold'em",
                 autor: "Phil Hellmuth",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/q3HMgKP"
+                imagem: "https://i.imgur.com/q3HMgKP.jpg"
             },
             {
                 titulo: "Contos extraordinarios",
                 autor: "Edgar Allan Poe",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/kdablRR"
+                imagem: "https://i.imgur.com/kdablRR.jpg"
             },
             {
                 titulo: "O escaravelho de ouro e outros contos",
                 autor: "Edgar Allan Poe",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/gqQjPwv"
+                imagem: "https://i.imgur.com/gqQjPwv.jpg"
             },
             {
                 titulo: "Ilusões",
                 autor: "Richard Bach",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/jc8Ta0x"
+                imagem: "https://i.imgur.com/jc8Ta0x.jpg"
             },
             {
                 titulo: "The Walking Dead - A Ascensão do Governador",
                 autor: "Robert Kirkman",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/IC0UJvV"
+                imagem: "https://i.imgur.com/IC0UJvV.jpg"
             },
             {
                 titulo: "The Walking Dead - O caminho para woodbury",
                 autor: "Robert Kirkman",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/NXsOH8y"
+                imagem: "https://i.imgur.com/NXsOH8y.jpg"
             },
             {
                 titulo: "Depois da Escuridão",
                 autor: "Sidney Sheldon",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/qkxHSt8"
+                imagem: "https://i.imgur.com/qkxHSt8.jpg"
             },
             {
                 titulo: "Se Houver amanhã / Nada dura para sempre",
                 autor: "Sidney Sheldon",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/KcGrweV"
+                imagem: "https://i.imgur.com/KcGrweV.jpg"
             },
             {
                 titulo: "A Senhora do Jogo",
                 autor: "Sidney Sheldon",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/8nwwzQs"
+                imagem: "https://i.imgur.com/8nwwzQs.jpg"
             },
             {
                 titulo: "12 Anos de Escravidão",
                 autor: "Solomon Northup",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/UJacmLH"
+                imagem: "https://i.imgur.com/UJacmLH.jpg"
             },
             {
                 titulo: "A Cabeça do Santo",
                 autor: "Socorro Acioli",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/cMJWlMa"
+                imagem: "https://i.imgur.com/cMJWlMa.jpg"
             },
             {
                 titulo: "O Médico e o Monstro",
                 autor: "Robert Louis Stevenson",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/1hY4Mua"
+                imagem: "https://i.imgur.com/1hY4Mua.jpg"
             },
             {
                 titulo: "Ruas Estranhas",
                 autor: "George R.R. Martin (Org.)",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/5hPb9Sj"
+                imagem: "https://i.imgur.com/5hPb9Sj.jpg"
             },
             {
                 titulo: "A Volta ao Mundo em 80 dias",
                 autor: "Júlio Verne",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/5fVaPfc"
+                imagem: "https://i.imgur.com/5fVaPfc.jpg"
             },
             {
                 titulo: "Os Miseráveis",
                 autor: "Victor Hugo",
                 estado: "",
                 preco: "",
-                imagem: "https://imgur.com/7VCYi9Q"
+                imagem: "https://i.imgur.com/7VCYi9Q.jpg"
             },
             {
                 titulo: "Medeia Morta",
                 autor: "Claudia Lemes",
                 estado: "",
                 preco: "",
-                imagem: "<blockquote class="imgur-embed-pub" lang="en" data-id="B2NZ2MB"><a href="https://imgur.com/B2NZ2MB">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>"
+                imagem: "https://i.imgur.com/B2NZ2MB.jpg"
             }
         ];
     
-    const container = document.getElementById('lista-livros');
+        const container = document.getElementById('lista-livros');
 
         livros.forEach(livro => {
-            // Formata a mensagem para o WhatsApp (substituindo espaços por %20)
             const mensagem = encodeURIComponent(`Olá Beatriz! Tenho interesse no livro: ${livro.titulo}`);
             const linkWhatsapp = `https://wa.me/5535984278427?text=${mensagem}`;
 
             const card = `
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow flex flex-col">
-                    <img src="${livro.imagem}.jpg" alt="${livro.titulo}" class="w-full h-64 object-cover">
+                    <img src="${livro.imagem}" alt="${livro.titulo}" class="w-full h-64 object-cover">
                     <div class="p-6 flex-grow flex flex-col">
                         <h2 class="text-xl font-bold mb-2 h-14 overflow-hidden">${livro.titulo}</h2>
                         <p class="text-gray-600 mb-1 text-sm"><strong>Autor:</strong> ${livro.autor}</p>
@@ -352,3 +349,5 @@
             container.innerHTML += card;
         });
     </script>
+</body>
+</html>
