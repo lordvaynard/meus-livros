@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Estante - Livros à Venda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-indigo-600 text-white py-8 shadow-md">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Minha Estante</h1>
+            <p class="mt-2 text-indigo-100">Livros da minha coleção particular à venda</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-10">
+        <div id="lista-livros" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            </div>
+    </main>
+
+    <footer class="text-center py-10 text-gray-500 border-t mt-10">
+        <p>&copy; 2026 - Catálogo de Livros</p>
+    </footer>
+
+    <script>
+        // --- ADICIONE SEUS LIVROS AQUI ---
+        const livros = [
+            {
+                titulo: "Cem Anos de Solidão",
+                autor: "Gabriel García Márquez",
+                estado: "Excelente (Lido uma vez)",
+                preco: "R$ 45,00",
+                imagem: "https://via.placeholder.com/150x220?text=Livro+1"
+            },
+            {
+                titulo: "A Cabeça do Santo",
+                autor: "Socorro Acioli",
+                estado: "Novo (Lacrado)",
+                preco: "R$ 35,00",
+                imagem: "https://via.placeholder.com/150x220?text=Livro+2"
+            }
+        ];
+
+        const container = document.getElementById('lista-livros');
+
+        livros.forEach(livro => {
+            const card = `
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <img src="${livro.imagem}" alt="${livro.titulo}" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold mb-2">${livro.titulo}</h2>
+                        <p class="text-gray-600 mb-1"><strong>Autor:</strong> ${livro.autor}</p>
+                        <p class="text-gray-600 mb-1"><strong>Estado:</strong> ${livro.estado}</p>
+                        <p class="text-indigo-600 font-bold text-2xl mt-4">${livro.preco}</p>
+                        <button class="w-full mt-4 bg-green-500 text-white py-2 rounded hover:bg-green-600 transition-colors">
+                            Tenho interesse
+                        </button>
+                    </div>
+                </div>
+            `;
+            container.innerHTML += card;
+        });
+    </script>
+</body>
+</html>
