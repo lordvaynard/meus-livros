@@ -322,22 +322,29 @@
                 imagem: "<blockquote class="imgur-embed-pub" lang="en" data-id="B2NZ2MB"><a href="https://imgur.com/B2NZ2MB">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>"
             }
         ];
-
-        const container = document.getElementById('lista-livros');
+    
+    const container = document.getElementById('lista-livros');
 
         livros.forEach(livro => {
+            // Formata a mensagem para o WhatsApp (substituindo espaços por %20)
+            const mensagem = encodeURIComponent(`Olá Beatriz! Tenho interesse no livro: ${livro.titulo}`);
+            const linkWhatsapp = `https://wa.me/5535984278427?text=${mensagem}`;
+
             const card = `
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow flex flex-col">
-                    <img src="${livro.imagem}" alt="${livro.titulo}" class="w-full h-64 object-cover">
+                    <img src="${livro.imagem}.jpg" alt="${livro.titulo}" class="w-full h-64 object-cover">
                     <div class="p-6 flex-grow flex flex-col">
                         <h2 class="text-xl font-bold mb-2 h-14 overflow-hidden">${livro.titulo}</h2>
                         <p class="text-gray-600 mb-1 text-sm"><strong>Autor:</strong> ${livro.autor}</p>
                         <p class="text-gray-600 mb-1 text-sm italic"><strong>Estado:</strong> ${livro.estado || 'Não informado'}</p>
                         <div class="mt-auto pt-4">
                             <p class="text-indigo-600 font-bold text-2xl">${livro.preco ? 'R$ ' + livro.preco : 'A combinar'}</p>
-                            <button class="w-full mt-4 bg-green-500 text-white py-2 rounded hover:bg-green-600 transition-colors">
+                            
+                            <a href="${linkWhatsapp}" 
+                               target="_blank" 
+                               class="block text-center w-full mt-4 bg-green-500 text-white py-2 rounded hover:bg-green-600 transition-colors font-bold">
                                 Tenho interesse
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -345,5 +352,3 @@
             container.innerHTML += card;
         });
     </script>
-</body>
-</html>
