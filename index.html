@@ -17,7 +17,7 @@
 
     <main class="container mx-auto px-4 py-10">
         <div id="lista-livros" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            </div>
+        </div>
     </main>
 
     <footer class="text-center py-10 text-gray-500 border-t mt-10">
@@ -25,21 +25,301 @@
     </footer>
 
     <script>
-        // --- ADICIONE SEUS LIVROS AQUI ---
+        // --- LIVROS ORGANIZADOS POR AUTOR > TÍTULO ---
         const livros = [
             {
-                titulo: "Cem Anos de Solidão",
-                autor: "Gabriel García Márquez",
-                estado: "Excelente (Lido uma vez)",
-                preco: "R$ 45,00",
-                imagem: "https://via.placeholder.com/150x220?text=Livro+1"
+                titulo: "Os Sete",
+                autor: "André Vianco",
+                estado: "Como novo",
+                preco: "15,00",
+                imagem: "https://imgur.com/j9PMzYL"
+            },
+            {
+                titulo: "Sétimo",
+                autor: "André Vianco",
+                estado: "Conservado",
+                preco: "15,00",
+                imagem: "https://imgur.com/h6kultL"
+            },
+            {
+                titulo: "Box As cronicas de Arthur (3 livros)",
+                autor: "Bernard Cornwell",
+                estado: "Nunca lido.",
+                preco: "100,00",
+                imagem: "https://QN8JnNM"
+            },
+            {
+                titulo: "O Conde de Monte Cristo",
+                autor: "Alexandre Dumas",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/e4iJqTR"
+            },
+            {
+                titulo: "Autocracia S. A.",
+                autor: "Anne Applebaum",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/G1wXrqU"
+            },
+            {
+                titulo: "As melhores histórias de Sherlock Holmes",
+                autor: "Arthur Conan Doyle",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/ef3P4iX"
+            },
+            {
+                titulo: "O Exorcista",
+                autor: "William Peter Blatty",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/JX02udB"
+            },
+            {
+                titulo: "O Jardim Secreto",
+                autor: "Frances Hodgson Burnett",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/ots2EiF"
+            },
+            {
+                titulo: "Product Backlog Building",
+                autor: "Fábio Aguiar e Paulo Caroli",
+                estado: "Como novo",
+                preco: "20,00",
+                imagem: "https://imgur.com/0u7h2y2"
+            },
+            {
+                titulo: "A Revolução dos Bichos",
+                autor: "George Orwell",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/YKYbGgc"
+            },
+            {
+                titulo: "Vidas Secas",
+                autor: "Graciliano Ramos",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/A7tHwKw"
+            },
+            {
+                titulo: "Confie em mim",
+                autor: "Harlan Coben",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/i5SEai7"
+            },
+            {
+                titulo: "Não Conte a ninguem",
+                autor: "Harlan Coben",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/9dbEHlf"
+            },
+            {
+                titulo: "As Minas do Rei Salomão",
+                autor: "H. Rider Haggard",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/UrVBpQb"
+            },
+            {
+                titulo: "O chamado de Cthulhu e outros contos",
+                autor: "H.P. Lovecraft",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/7uBWois"
+            },
+            {
+                titulo: "Como se tornar um lider servidor",
+                autor: "James C. Hunter",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/w6V9HWU"
+            },
+            {
+                titulo: "A Culpa é das Estrelas",
+                autor: "John Green",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/FnF2iRZ"
+            },
+            {
+                titulo: "Memorial do Convento",
+                autor: "José Saramago",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/sjT5tml"
+            },
+            {
+                titulo: "A estrela da manhã",
+                autor: "Julia Quinn",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/2np2foa"
+            },
+            {
+                titulo: "Nunca",
+                autor: "Ken Follett",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/zr3vCyX"
+            },
+            {
+                titulo: "O Voo da Água",
+                autor: "Ken Follett",
+                estado: "Edição economica, como novo, nunca lido",
+                preco: "20,00",
+                imagem: "https://imgur.com/wKeMQWm"
+            },
+            {
+                titulo: "Dom Casmurro",
+                autor: "Machado de Assis",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/AvLvkIW"
+            },
+            {
+                titulo: "Memórias Postumas de Bras Cubas",
+                autor: "Machado de Assis",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/BiYG2Gn"
+            },
+            {
+                titulo: "O Parque dos Dinossauros",
+                autor: "Michael Crichton",
+                estado: "Capa dura, edição antiga, marcas de uso e páginas amareladas",
+                preco: "20,00",
+                imagem: "https://imgur.com/s8ffM6h"
+            },
+            {
+                titulo: "O clube do Filme",
+                autor: "David Gilmour",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/Cw4JooW"
+            },
+            {
+                titulo: "Texas Hold'em Odds e Propabilidades",
+                autor: "Matthew Hilger",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/VfEZbN5"
+            },
+            {
+                titulo: "Poker - A essência do Texas Hold'em",
+                autor: "Phil Hellmuth",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/q3HMgKP"
+            },
+            {
+                titulo: "Contos extraordinarios",
+                autor: "Edgar Allan Poe",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/kdablRR"
+            },
+            {
+                titulo: "O escaravelho de ouro e outros contos",
+                autor: "Edgar Allan Poe",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/gqQjPwv"
+            },
+            {
+                titulo: "Ilusões",
+                autor: "Richard Bach",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/jc8Ta0x"
+            },
+            {
+                titulo: "The Walking Dead - A Ascensão do Governador",
+                autor: "Robert Kirkman",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/IC0UJvV"
+            },
+            {
+                titulo: "The Walking Dead - O caminho para woodbury",
+                autor: "Robert Kirkman",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/NXsOH8y"
+            },
+            {
+                titulo: "Depois da Escuridão",
+                autor: "Sidney Sheldon",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/qkxHSt8"
+            },
+            {
+                titulo: "Se Houver amanhã / Nada dura para sempre",
+                autor: "Sidney Sheldon",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/KcGrweV"
+            },
+            {
+                titulo: "A Senhora do Jogo",
+                autor: "Sidney Sheldon",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/8nwwzQs"
+            },
+            {
+                titulo: "12 Anos de Escravidão",
+                autor: "Solomon Northup",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/UJacmLH"
             },
             {
                 titulo: "A Cabeça do Santo",
                 autor: "Socorro Acioli",
-                estado: "Novo (Lacrado)",
-                preco: "R$ 35,00",
-                imagem: "https://m.media-amazon.com/images/I/71-YhujYUxS._SL1500_.jpg"
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/cMJWlMa"
+            },
+            {
+                titulo: "O Médico e o Monstro",
+                autor: "Robert Louis Stevenson",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/1hY4Mua"
+            },
+            {
+                titulo: "Ruas Estranhas",
+                autor: "George R.R. Martin (Org.)",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/5hPb9Sj"
+            },
+            {
+                titulo: "A Volta ao Mundo em 80 dias",
+                autor: "Júlio Verne",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/5fVaPfc"
+            },
+            {
+                titulo: "Os Miseráveis",
+                autor: "Victor Hugo",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/7VCYi9Q"
+            },
+            {
+                titulo: "Medeia Morta",
+                autor: "Vladyer Lier",
+                estado: "",
+                preco: "",
+                imagem: "https://imgur.com/B2NZ2MB"
             }
         ];
 
@@ -47,16 +327,18 @@
 
         livros.forEach(livro => {
             const card = `
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow flex flex-col">
                     <img src="${livro.imagem}" alt="${livro.titulo}" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h2 class="text-xl font-bold mb-2">${livro.titulo}</h2>
-                        <p class="text-gray-600 mb-1"><strong>Autor:</strong> ${livro.autor}</p>
-                        <p class="text-gray-600 mb-1"><strong>Estado:</strong> ${livro.estado}</p>
-                        <p class="text-indigo-600 font-bold text-2xl mt-4">${livro.preco}</p>
-                        <button class="w-full mt-4 bg-green-500 text-white py-2 rounded hover:bg-green-600 transition-colors">
-                            Tenho interesse
-                        </button>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h2 class="text-xl font-bold mb-2 h-14 overflow-hidden">${livro.titulo}</h2>
+                        <p class="text-gray-600 mb-1 text-sm"><strong>Autor:</strong> ${livro.autor}</p>
+                        <p class="text-gray-600 mb-1 text-sm italic"><strong>Estado:</strong> ${livro.estado || 'Não informado'}</p>
+                        <div class="mt-auto pt-4">
+                            <p class="text-indigo-600 font-bold text-2xl">${livro.preco ? 'R$ ' + livro.preco : 'A combinar'}</p>
+                            <button class="w-full mt-4 bg-green-500 text-white py-2 rounded hover:bg-green-600 transition-colors">
+                                Tenho interesse
+                            </button>
+                        </div>
                     </div>
                 </div>
             `;
