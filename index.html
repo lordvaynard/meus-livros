@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Estante | Beatriz</title>
+    <title>Minha Estante | Ronie</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -31,7 +31,7 @@
 
     <footer class="bg-white border-t py-12 mt-12">
         <div class="container mx-auto text-center">
-            <p class="text-gray-400 text-sm uppercase tracking-widest">&copy; 2026 Catálogo de Livros da Beatriz</p>
+            <p class="text-gray-400 text-sm uppercase tracking-widest">&copy; 2026 Catálogo de Livros do Ronie</p>
         </div>
     </footer>
 
@@ -53,8 +53,8 @@
         function renderizarLivros(lista) {
             container.innerHTML = ""; // Limpa o container
             lista.forEach(livro => {
-                const mensagem = encodeURIComponent(`Olá Beatriz! Tenho interesse no livro: ${livro.titulo}`);
-                const linkWhatsapp = `https://wa.me/5535984278427?text=${mensagem}`;
+                const mensagem = encodeURIComponent(`Olá Ronie! Tenho interesse no livro: ${livro.titulo}`);
+                const linkWhatsapp = `https://wa.me/5535984378437?text=${mensagem}`;
 
                 const card = `
                     <div class="book-card bg-white rounded-2xl overflow-hidden flex flex-col">
