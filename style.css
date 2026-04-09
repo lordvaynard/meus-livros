@@ -1,0 +1,61 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Header com degradê verde */
+.header-gradient {
+    background: linear-gradient(135deg, #065f46 0%, #059669 100%);
+}
+
+/* Estilização dos Cards */
+.book-card {
+    transition: transform 0.3s ease, shadow 0.3s ease;
+    border: 1px solid #e5e7eb;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+/* Badge de Preço */
+.price-tag {
+    color: #059669;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* Botão de Interesse */
+.btn-whatsapp {
+    background-color: #10b981;
+    transition: all 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    background-color: #059669;
+    transform: scale(1.02);
+}
+
+/* Modal de Imagem */
+#modal-imagem {
+    display: none;
+    backdrop-filter: blur(8px);
+}
+
+.close-btn {
+    transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+    transform: rotate(90deg);
+    color: #10b981;
+}
+
+/* Ajuste das imagens nos cards */
+.card-img-container {
+    height: 280px;
+    overflow: hidden;
+    background-color: #f3f4f6;
+}
