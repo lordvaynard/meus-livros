@@ -28,6 +28,13 @@
     "imagem": "https://i.imgur.com/QN8JnNM.jpg"
   },
   {
+     "titulo": "Drácula",
+     "autor": "Bram Stoker",
+     "estado": "Edição bilingue, paginas amareladas, nunca lido",
+     "preco": "40,00",
+     "imagem": "https://i.imgur.com/cxR6vFS.jpg"
+  },
+  {
     "titulo": "O Conde de Monte Cristo",
     "autor": "Alexandre Dumas",
     "estado": "Bom estado",
