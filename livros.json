@@ -1,0 +1,296 @@
+[
+        {
+            titulo: "Os Sete",
+            autor: "André Vianco",
+            estado: "Como novo",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/j9PMzYL.jpg"
+        },
+        {
+            titulo: "Sétimo",
+            autor: "André Vianco",
+            estado: "Conservado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/h6kultL.jpg"
+        },
+        {
+            titulo: "A estrela da manhã",
+            autor: "André Vianco",
+            estado: "Como novo",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/2np2foa.jpg"
+        },		
+        {
+            titulo: "Box As cronicas de Arthur (3 livros)",
+            autor: "Bernard Cornwell",
+            estado: "Nunca lido.",
+            preco: "100,00",
+            imagem: "https://i.imgur.com/QN8JnNM.jpg"
+        },
+        {
+            titulo: "O Conde de Monte Cristo",
+            autor: "Alexandre Dumas",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/e4iJqTR.jpg"
+        },
+        {
+            titulo: "Autocracia S. A.",
+            autor: "Anne Applebaum",
+            estado: "Excelente",
+            preco: "25,00",
+            imagem: "https://i.imgur.com/G1wXrqU.jpg"
+        },
+        {
+            titulo: "As melhores histórias de Sherlock Holmes",
+            autor: "Arthur Conan Doyle",
+            estado: "Bom estado",
+            preco: "10,00",
+            imagem: "https://i.imgur.com/ef3P4iX.jpg"
+        },
+        {
+            titulo: "O Exorcista",
+            autor: "William Peter Blatty",
+            estado: "Muito desgaste do tempo, edição de 1972",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/JX02udB.jpg"
+        },
+        {
+            titulo: "O Jardim Secreto",
+            autor: "Frances Hodgson Burnett",
+            estado: "Bom estado",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/ots2EiF.jpg"
+        },
+        {
+            titulo: "Product Backlog Building",
+            autor: "Fábio Aguiar e Paulo Caroli",
+            estado: "Como novo",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/0u7h2y2.jpg"
+        },
+        {
+            titulo: "A Revolução dos Bichos",
+            autor: "George Orwell",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/YKYbGgc.jpg"
+        },
+        {
+            titulo: "Vidas Secas",
+            autor: "Graciliano Ramos",
+            estado: "Bom estado",
+            preco: "10,00",
+            imagem: "https://i.imgur.com/A7tHwKw.jpg"
+        },
+        {
+            titulo: "Confie em mim",
+            autor: "Harlan Coben",
+            estado: "Conservado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/i5SEai7.jpg"
+        },
+        {
+            titulo: "Não Conte a ninguem",
+            autor: "Harlan Coben",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/9dbEHlf.jpg"
+        },
+        {
+            titulo: "As Minas do Rei Salomão",
+            autor: "H. Rider Haggard",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/UrVBpQb.jpg"
+        },
+        {
+            titulo: "O chamado de Cthulhu e outros contos",
+            autor: "H.P. Lovecraft",
+            estado: "Conservado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/7uBWois.jpg"
+        },
+        {
+            titulo: "Como se tornar um lider servidor",
+            autor: "James C. Hunter",
+            estado: "Bom estado",
+            preco: "10,00",
+            imagem: "https://i.imgur.com/w6V9HWU.jpg"
+        },
+        {
+            titulo: "A Culpa é das Estrelas",
+            autor: "John Green",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/FnF2iRZ.jpg"
+        },
+        {
+            titulo: "Memorial do Convento",
+            autor: "José Saramago",
+            estado: "Bom estado",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/sjT5tml.jpg"
+        },
+        {
+            titulo: "Nunca",
+            autor: "Ken Follett",
+            estado: "Excelente",
+            preco: "30,00",
+            imagem: "https://i.imgur.com/zr3vCyX.jpg"
+        },
+        {
+            titulo: "O Voo da Águia",
+            autor: "Ken Follett",
+            estado: "Edição economica, como novo, nunca lido",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/wKeMQWm.jpg"
+        },
+        {
+            titulo: "Dom Casmurro",
+            autor: "Machado de Assis",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/AvLvkIW.jpg"
+        },
+        {
+            titulo: "Memórias Postumas de Bras Cubas",
+            autor: "Machado de Assis",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/BiYG2Gn.jpg"
+        },
+        {
+            titulo: "O Parque dos Dinossauros",
+            autor: "Michael Crichton",
+            estado: "Capa dura, edição antiga, marcas de uso e páginas amareladas",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/s8ffM6h.jpg"
+        },
+        {
+            titulo: "O clube do Filme",
+            autor: "David Gilmour",
+            estado: "Bom estado",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/Cw4JooW.jpg"
+        },
+        {
+            titulo: "Texas Hold'em Odds e Propabilidades",
+            autor: "Matthew Hilger",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/VfEZbN5.jpg"
+        },
+        {
+            titulo: "Poker - A essência do Texas Hold'em",
+            autor: "Phil Hellmuth",
+            estado: "Bom estado",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/q3HMgKP.jpg"
+        },
+        {
+            titulo: "Contos extraordinarios",
+            autor: "Edgar Allan Poe",
+            estado: "Conservado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/kdablRR.jpg"
+        },
+        {
+            titulo: "O escaravelho de ouro e outros contos",
+            autor: "Edgar Allan Poe",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/gqQjPwv.jpg"
+        },
+        {
+            titulo: "Ilusões",
+            autor: "Richard Bach",
+            estado: "Marcas de uso",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/jc8Ta0x.jpg"
+        },
+        {
+            titulo: "The Walking Dead - A Ascensão do Governador",
+            autor: "Robert Kirkman",
+            estado: "Bom estado",
+            preco: "25,00",
+            imagem: "https://i.imgur.com/IC0UJvV.jpg"
+        },
+        {
+            titulo: "The Walking Dead - O caminho para woodbury",
+            autor: "Robert Kirkman",
+            estado: "Bom estado",
+            preco: "25,00",
+            imagem: "https://i.imgur.com/NXsOH8y.jpg"
+        },
+        {
+            titulo: "Depois da Escuridão",
+            autor: "Sidney Sheldon",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/qkxHSt8.jpg"
+        },
+        {
+            titulo: "Se Houver amanhã / Nada dura para sempre",
+            autor: "Sidney Sheldon",
+            estado: "Bom estado",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/KcGrweV.jpg"
+        },
+        {
+            titulo: "A Senhora do Jogo",
+            autor: "Sidney Sheldon",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/8nwwzQs.jpg"
+        },
+        {
+            titulo: "12 Anos de Escravidão",
+            autor: "Solomon Northup",
+            estado: "Bom estado",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/UJacmLH.jpg"
+        },
+        {
+            titulo: "A Cabeça do Santo",
+            autor: "Socorro Acioli",
+            estado: "Excelente",
+            preco: "30,00",
+            imagem: "https://i.imgur.com/cMJWlMa.jpg"
+        },
+        {
+            titulo: "O Médico e o Monstro",
+            autor: "Robert Louis Stevenson",
+            estado: "Antigo, marcas de uso",
+            preco: "10,00",
+            imagem: "https://i.imgur.com/1hY4Mua.jpg"
+        },
+        {
+            titulo: "Ruas Estranhas",
+            autor: "George R.R. Martin (Org.)",
+            estado: "Bom estado",
+            preco: "30,00",
+            imagem: "https://i.imgur.com/5hPb9Sj.jpg"
+        },
+        {
+            titulo: "A Volta ao Mundo em 80 dias",
+            autor: "Júlio Verne",
+            estado: "Bom estado",
+            preco: "20,00",
+            imagem: "https://i.imgur.com/5fVaPfc.jpg"
+        },
+        {
+            titulo: "Os Miseráveis",
+            autor: "Victor Hugo",
+            estado: "Bom estado",
+            preco: "15,00",
+            imagem: "https://i.imgur.com/7VCYi9Q.jpg"
+        },
+        {
+            titulo: "Medeia Morta",
+            autor: "Claudia Lemes",
+            estado: "Excelente",
+            preco: "25,00",
+            imagem: "https://i.imgur.com/B2NZ2MB.jpg"
+        }
+    ]
